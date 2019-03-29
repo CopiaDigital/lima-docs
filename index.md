@@ -4,8 +4,8 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
-description: Project description
+title: CMS Documentation
+description: Lima CMS
 buttons:
     - content: Button
       url: '#'
@@ -28,4 +28,12 @@ grid_navigation:
       excerpt: How to create and edit pages
       cta: Read more
       url: '/pages'
+    - title: Menus
+      excerpt: How to create and menus
+      cta: Read more
+      url: '/menus'
+    - title: HTML
+      excerpt: Basic HTML
+      cta: Read more
+      url: '/html'
 ---

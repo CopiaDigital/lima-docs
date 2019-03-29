@@ -184,7 +184,7 @@ table {
 	margin: 0 0 1.25rem 0;
 
 	th, td {
-		border: 2px solid $color-table-border;
+		border: none;
 		vertical-align: middle;
 		padding: .625rem .9375rem;
 
@@ -242,4 +242,26 @@ button {
 	&:focus {
 		outline: none;
 	}
+}
+
+/* ----- Icons ----- */
+
+.icons {
+    height:30px;
+    padding-right:10px;
+}
+
+.menus {
+	margin-bottom:20px;
+}
+
+.menu-position {
+	margin:10px 0;
+	padding-right:10px;
+	width:250px;
+}
+
+i {
+	font-weight:bold;
+	font-family:Montserrat;
 }
