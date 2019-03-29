@@ -21,44 +21,22 @@ page_nav:
         url: '/html'
 ---
 
-<h2 id="menu-section">HTML Basics</h2>
+<h2 id="page-section1">Adding a new group</h2>
+<p>Pages are organised into groups to make them easier to find.</p>
+<ul>
+    <li>Hover over the <strong>Content</strong> tab at the top.</li>
+    <li>Select <strong>Groups</strong> from the drop down menu - You will be able to select an existing group or add a new one.</li> 
+    <li>On the right-hand-side of the page there is a button called <strong>Add a new group</strong>, click this.</li>
+</ul>
+<img src="../images/new-group.png" style="width:200px" alt="Add a new group button">
 
-<h3 id="html-subsection">Content</h3>
-<h5>Paragraph</h5>
-<p>Between these tags is where the majority of the text will appear.</p>
-    <p></p>
-<h5><strong>Bold</strong></h5>
-<p>Use these tags to <strong>embolden</strong> your text. They will still need to sit within paragraph tags.</p>
-    <p><strong></strong></p>
-<p></p>
-<h5><em>Italics</em></h5>
-<p>Use these tags to make your text <em>italic.</em> They will still need to sit within paragraph tags.</p>
-    <p><em></em></p>
-<h5>Line Break</h5>
-<p>Use this tag to start a new line.</p>
-    <br/>
-<h3 id="html-subsection1">Headings</h3>
-<p>Headings range from 1 - 6, with 1 being the largest and 6 the smallest. The number is relative to the number of the header.</p>
-    <h1>Header 1</h1> 
-    <h2>Header 2</h2> 
-    <h3>Header 3</h3> 
-    <h4>Header 4</h4> 
-    <h5>Header 5</h5>
-    <h6>Header 6</h6> 
-<h3 id="html-subsection2">Lists</h3>
-<p>Use these tags to create a list of content</p>
-<h5>Bullet List</h5>
-    <ul><li></li></ul>
-<h5>Ordered List (1, 2, 3)</h5>
-    <ol><li></li></ol>
-<h3 id="html-subsection3">Tables</h3>
-<p>Use these tags to arrange content in a grid format.</p>
-<p><strong>(tr -</strong> these are tags to start a new row and <strong>td -</strong> these are tags for each cell)</p>
-    <table>
-        <tr>
-            <td></td>
-        </tr>
-    </table>
+<p>You will then need to enter details to get add the group. The fields are:</p>
+<div class="callout callout--info">
+    <p><strong>Name</strong> This is the name of the group.</p>
+    <p><strong>Slug</strong>This will generate automatically from the name and will appear in the URL to show you the path of the page.</p>
+    <p><strong>Parent</strong>You have the option to nest your groups within other groups.</p>
+    <p><strong>Hide from public lists</strong>You can choose whether to make your group public or not.</p>
+</div>
 
 
 
