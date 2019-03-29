@@ -17,8 +17,8 @@ page_nav:
         content: Managing Pages
         url: '/pages'
     next:
-        content: HTML basics
-        url: '/html'
+        content: Managing Groups
+        url: '/groups'
 ---
 
 <h2 id="menu-section">Menus</h2>
@@ -28,7 +28,7 @@ page_nav:
     <li>Select <strong>Menus</strong> from the drop down menu.</li>
     <li>On the right-hand-side of the page there is a button called <strong>Add a new menu</strong>, click this.</li>
 </ul>
-<p><img src="../images/new-menu.png" style="width:200px;"></p>
+<p><img src="../images/new-menu.png" style="width:200px;" alt="Add a new menu button"></p>
 <p>You will then need to enter the details to add the menu. The fields are:</p>
 <div class="callout callout--info">
     <p><strong>Reference</strong> This is the name of the menu.</p>
@@ -40,7 +40,7 @@ page_nav:
 </div>
 <h3 id="menu-subsection">Adding links</h3>
 <p>A menu without links isn't very useful, so lets start bulding up a decent menu. Having just added a menu, or by editing an existing menu, click add a link at the bottom of the page.</p>
-<p><img src="../images/add-link.png" style="width:100px;"></p>
+<p><img src="../images/add-link.png" style="width:100px;" alt="Add a link button"></p>
 <p>The browser will redirect to a new page, where you can set up a new link. You will be presented with the following fields:</p>
 <div class="callout callout--info">
     <p><strong>Name</strong> This is the name of the menu i.e. Main Menu</p>
@@ -67,7 +67,7 @@ page_nav:
 <h3 id="menu-subsection1">Ordering Links</h3>
 <p>You may want your links to appear in a certain order, i.e. the homepage at the beginning and the contact page at the end.</p>
 <p>This is easily possible from the menu edit view. Choose the menu you would like to edit then simply drag the links into the desired order.</p>
-<p><img src="../images/reorder-link.png" width="400px" alt=""></p>
+<p><img src="../images/reorder-link.png" width="400px" alt="Re-ording links"></p>
 <h3 id="menu-subsection2">Submenus</h3>
 <p>To create a submenu, you must create two menus:</p>
 <ul>

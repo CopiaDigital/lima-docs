@@ -46,7 +46,7 @@ page_nav:
 <p>A page, along with other items in the CMS have numerous options, split up into tabs. The most important information is on the first tab but click on the tabs to see other options available to you.</p>
 
 <h3 id="page-subsection">Content</h3>
-<p><img src="../images/content-tab.png" style="width:450px;" alt="Edit page tabs"></p>
+<p><img src="../images/content-tab.png" style="width:450px;" alt="Content tab"></p>
 <p>Once you have created your page, you can start adding content. You will be presented with a screen like this.
 <p><img src="../images/content.png" alt="Content page"></p>
 
@@ -109,28 +109,28 @@ page_nav:
 <p>Menus are created and edited in the menu section, but you assign menus to the pages you would like them to appear on.</p>
 <p>Depending on the layout of the site, you'll be able to assign menus to different locations. Locations are typically <strong>header and footer</strong> and refer to the position of the menu on the page.</p>
 <div class="menus">
-<img class="menu-position" src="../images/header.png">
-<img class="menu-position" src="../images/footer.png">
+<img class="menu-position" src="../images/header.png" alt="Header menu position">
+<img class="menu-position" src="../images/footer.png" alt="Footer menu position">
 </div>
 <p>If you click on <strong>Add a menu</strong> you can then select the desired menu from the list that pops up.</p>
-<p><img src="../images/menu-popup.png" style="width:300px;"></p>
+<p><img src="../images/menu-popup.png" style="width:300px;" alt="Menu popup"></p>
 <p>In this menu you can select the Menu you would like, so for header we would click on <strong>Main menu</strong>.</p>
-<p><img src="../images/main-menu.png" style="width:300px;"></p>
+<p><img src="../images/main-menu.png" style="width:300px;" alt="Header menu position"></p>
 <p>The menu will appear in the relevant list. If you add multiple menus to a location you can order them by simply dragging them.</p>
 <div class="callout callout--danger">
     <p>Do not forget to hit save once you've finished to keep your changes.</p>
 </div>
 
 <h3 id="page-subsection3">SEO</h3>
-<p><img src="../images/seo-tab.png" style="width:450px;" alt="SEO tabs"></p>
+<p><img src="../images/seo-tab.png" style="width:450px;" alt="SEO tab"></p>
 <p>This allows you to embed keywords and descriptions into the HTML to make it easier for users to find you side on search engines such as Google and Bing.</p>
 
 <h3 id="page-subsection4">Attributes</h3>
-<p><img src="../images/attributes-tab.png" style="width:450px;" alt="Attribute tabs"></p>
+<p><img src="../images/attributes-tab.png" style="width:450px;" alt="Attribute tab"></p>
 
 
 <h3 id="page-subsection5">Permissions</h3>
-<p><img src="../images/permissions-tab.png" style="width:450px;" alt="Permisson tabs"></p>
+<p><img src="../images/permissions-tab.png" style="width:450px;" alt="Permisson tab"></p>
 <p>This allows you to set who can view specific pages, for instance administrators, or people who have accepted a disclaimer. If you wanted to hide the page you can even remove the permission.</p>
 
 <div class="callout callout--danger">
