@@ -36,6 +36,10 @@ grid_navigation:
       excerpt: How to create and edit groups
       cta: Read more
       url: '/groups'
+    - title: Layouts
+      excerpt: How to create and edit layouts
+      cta: Read more
+      url: '/layouts'
     - title: HTML
       excerpt: Basic HTML
       cta: Read more
