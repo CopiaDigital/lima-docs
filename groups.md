@@ -17,8 +17,8 @@ page_nav:
         content: Managing Menus
         url: '/menus'
     next:
-        content: HTML Basics
-        url: '/html'
+        content: Managing Layouts
+        url: '/layouts'
 ---
 
 <h2 id="page-section1">Adding a new group</h2>
@@ -37,6 +37,10 @@ page_nav:
     <p><strong>Parent</strong>You have the option to nest your groups within other groups.</p>
     <p><strong>Hide from public lists</strong>You can choose whether to make your group public or not.</p>
 </div>
+<h3 id="group-subsection">Editing a group</h3>
+<p>Choose the group you'd like to edit from the group list, click on either the <strong>title</strong> or <strong>edit</strong> to get started.</p>
+
+
 
 
 
