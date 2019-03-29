@@ -29,9 +29,13 @@ grid_navigation:
       cta: Read more
       url: '/pages'
     - title: Menus
-      excerpt: How to create and menus
+      excerpt: How to create and manage menus
       cta: Read more
       url: '/menus'
+    - title: Groups
+      excerpt: How to create and edit groups
+      cta: Read more
+      url: '/groups'
     - title: HTML
       excerpt: Basic HTML
       cta: Read more
