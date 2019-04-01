@@ -50,7 +50,7 @@ page_nav:
 <p>Once you have created your page, you can start adding content. You will be presented with a screen like this.
 <p><img src="../images/content.png" alt="Content page"></p>
 
-<p>As you can see there is a field where you can add your content with the following icons:
+<p>As you can see there is a field where you can add your content with the following icons:</p>
 <table style="border-collapse: collapse; width: 100%;" border="0">
 <tbody>
 <tr>
