@@ -47,7 +47,7 @@ page_nav:
 
 <h3 id="page-subsection">Content</h3>
 <p><img src="../images/content-tab.png" style="width:450px;" alt="Edit page tabs"></p>
-<p>Once you have created your page, you can start adding content. You will be presented with a screen like this.
+<p>Once you have created your page, you can start adding content. You will be presented with a screen like this.</p>
 <p><img src="../images/content.png" alt="Content page"></p>
 
 <p>As you can see there is a field where you can add your content with the following icons:</p>
