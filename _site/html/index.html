@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-<title>Page title</title>
+<title>HTML</title>
 
 	<meta name="description" content="Page description">
 
@@ -70,46 +70,28 @@
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								
-									<h1 class="hero-subheader__title">Page title</h1>
+									<h1 class="hero-subheader__title">HTML</h1>
 								
 								
 									<p class="hero-subheader__desc">Page description</p>
 								
 								
 									
-										<a href="#" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
+										<a href="/menus" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
 											<i class="icon icon--arrow-left"></i>
-											Previous page
+											Menus
 										</a>
 									
 									
-										<a href="#" class="btn btn--dark btn--rounded btn--w-icon">
+										<a href="/menus" class="btn btn--dark btn--rounded btn--w-icon">
 											<i class="icon icon--arrow-right"></i>
-											Next page
+											Managing Groups
 										</a>
 									
 								
 							</div><!-- /.align-inner -->
 						</div><!-- /.align-container -->
 					</div><!-- /.col -->
-					
-						<div class="col-md-4 col-md-offset-1 hidden-xs hidden-sm">
-							<div class="align-container" data-mh>
-								<div class="align-inner">
-									<div class="hero-subheader__author">
-										<p class="hero-subheader__author-title">
-											
-											<a href="#" class="btn btn--read-more">
-												About Author
-												<i class="icon icon--arrow-right"></i>
-											</a>
-											
-										</p><!-- /.hero-subheader__author-title -->
-										<p>Author description</p>
-									</div><!-- /.hero-subheader__author -->
-								</div><!-- /.align-inner -->
-							</div><!-- /.align-container -->
-						</div><!-- /.col -->
 					
 				</div><!-- /.row -->
 			</div><!-- /.container -->
@@ -119,7 +101,53 @@
 				<div class="row">
 					<div class="col-md-7">
 						<div class="content">
-							<p>Write your markdown here …</p>
+							<h2 id="menu-section">HTML Basics</h2>
+
+<h3 id="html-subsection">Content</h3>
+<h5>Paragraph</h5>
+<p>Between these tags is where the majority of the text will appear.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&lt;/p&gt;
+</code></pre></div></div>
+<h5><strong>Bold</strong></h5>
+<p>Use these tags to <strong>embolden</strong> your text. They will still need to sit within paragraph tags.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+</code></pre></div></div>
+<p></p>
+<h5><em>Italics</em></h5>
+<p>Use these tags to make your text <em>italic.</em> They will still need to sit within paragraph tags.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;
+</code></pre></div></div>
+<h5>Line Break</h5>
+<p>Use this tag to start a new line.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;br/&gt;
+</code></pre></div></div>
+<h3 id="html-subsection1">Headings</h3>
+<p>Headings range from 1 - 6, with 1 being the largest and 6 the smallest. The number is relative to the number of the header.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h1&gt;Header 1&lt;/h1&gt; 
+&lt;h2&gt;Header 2&lt;/h2&gt; 
+&lt;h3&gt;Header 3&lt;/h3&gt; 
+&lt;h4&gt;Header 4&lt;/h4&gt; 
+&lt;h5&gt;Header 5&lt;/h5&gt;
+&lt;h6&gt;Header 6&lt;/h6&gt; 
+</code></pre></div></div>
+<h3 id="html-subsection2">Lists</h3>
+<p>Use these tags to create a list of content</p>
+<h5>Bullet List</h5>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt;
+</code></pre></div></div>
+<h5>Ordered List (1, 2, 3)</h5>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ol&gt;&lt;li&gt;&lt;/li&gt;&lt;/ol&gt;
+</code></pre></div></div>
+<h3 id="html-subsection3">Tables</h3>
+<p>Use these tags to arrange content in a grid format.</p>
+<p><strong>(tr -</strong> these are tags to start a new row and <strong>td -</strong> these are tags for each cell)</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></div></div>
+
 
 						</div><!-- /.content -->
 					</div><!-- /.col -->
@@ -139,14 +167,14 @@
 						<div class="row">
 							<div class="col-xs-12">
 								
-									<a href="#" class="page-nav__item page-nav__item--prev">
+									<a href="/menus" class="page-nav__item page-nav__item--prev">
 										<i class="icon icon--arrow-left"></i>
-										Previous page
+										Menus
 									</a><!-- /.page-nav__item -->
 								
 								
-									<a href="#" class="page-nav__item page-nav__item--next">
-										Next page
+									<a href="/menus" class="page-nav__item page-nav__item--next">
+										Managing Groups
 										<i class="icon icon--arrow-right"></i>
 									</a><!-- /.page-nav__item -->
 								
