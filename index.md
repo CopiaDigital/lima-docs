@@ -6,21 +6,6 @@ keywords:
 # Hero section
 title: CMS Documentation
 description: Lima CMS
-buttons:
-    - content: Button
-      url: '#'
-      external_url: false
-    - icon: github
-      content: Button with icon
-      url: '#'
-      external_url: true
-
-# Author box
-author:
-    title: About Author
-    title_url: '#'
-    external_url: true
-    description: Author description
 
 # Grid navigation
 grid_navigation:
@@ -44,4 +29,8 @@ grid_navigation:
       excerpt: Basic HTML
       cta: Read more
       url: '/html'
+    - title: Synchronisation
+      excerpt: How to Synchronise and add Microsites
+      cta: Read more
+      url: '/synchronisation'
 ---
