@@ -29,7 +29,7 @@ page_nav:
     <li>On the right-hand-side of the page there is a button called <strong>Add a new menu</strong>, click this.</li>
 </ul>
 <p><img src="../images/new-menu.png" style="width:200px;" alt="Add a new menu button"></p>
-<p>You will then need to enter the details to add the menu. The fields are:</p>
+<p>You will then need to enter details to add the menu. The fields are:</p>
 <div class="callout callout--info">
     <p><strong>Reference</strong> This is the name of the menu.</p>
     <p><strong>Menu Type</strong> You can choose between <i>Links</i> or <i>Custom Content</i>.</p>

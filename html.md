@@ -52,6 +52,13 @@ page_nav:
 <h5>Ordered List (1, 2, 3)</h5>
     <ol><li></li></ol>
 <h3 id="html-subsection3">Tables</h3>
+<p>Use these tags to arrange content in a grid format.</p>
+<p><strong>(tr -</strong> these are tags to start a new row and <strong>td -</strong> these are tags for each cell)</p>
+    <table>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
 
 
 
