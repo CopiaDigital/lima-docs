@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Managing Menus
-description: Page description
+description: Creating and managing menus
 
 # Micro navigation
 micro_nav: true

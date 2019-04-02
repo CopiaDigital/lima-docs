@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: HTML
-description: Page description
+description: HTML basics
 
 # Micro navigation
 micro_nav: true

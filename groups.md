@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Managing Groups
-description: Page description
+description: Creating and editing groups
 
 # Micro navigation
 micro_nav: true

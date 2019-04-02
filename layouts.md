@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Managing Layouts
-description: Page description
+description: Creating and editing layouts
 
 # Micro navigation
 micro_nav: true
@@ -21,11 +21,11 @@ page_nav:
         url: '/html'
 ---
 <h2 id="layout-section">Adding a new layout</h2>
-<p>Pages are organised into groups to make them easier to find.</p>
+<p>Layouts make it easier to keep a level of consistency throughout the site. These can be used to save time when creating several similar pages.</p>
 <ul>
     <li>Hover over the <strong>Content</strong> tab at the top.</li>
-    <li>Select <strong>Groups</strong> from the drop down menu - You will be able to select an existing group or add a new one.</li> 
-    <li>On the right-hand-side of the page there is a button called <strong>Add a new group</strong>, click this.</li>
+    <li>Select <strong>Layouts</strong> from the drop down menu - You will be able to select an existing group or add a new one.</li> 
+    <li>On the right-hand-side of the page there is a button called <strong>Add a layout</strong>, click this.</li>
 </ul>
 <img src="../images/new-layout.png" style="width:200px" alt="Add a new group button">
 

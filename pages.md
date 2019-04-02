@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Managing Pages
-description: Page description
+description: Creating and editing pages
 
 # Micro navigation
 micro_nav: true
