@@ -4,9 +4,9 @@
 		<meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-<title>Managing Layouts</title>
+<title>Synchronisation and Microsites</title>
 
-	<meta name="description" content="Creating and editing layouts">
+	<meta name="description" content="Synchronising and creating microsites">
 
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -70,22 +70,22 @@
 						<div class="align-container" data-mh>
 							<div class="align-inner">
 								
-									<h1 class="hero-subheader__title">Managing Layouts</h1>
+									<h1 class="hero-subheader__title">Synchronisation and Microsites</h1>
 								
 								
-									<p class="hero-subheader__desc">Creating and editing layouts</p>
+									<p class="hero-subheader__desc">Synchronising and creating microsites</p>
 								
 								
 									
 										<a href="/menus" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
 											<i class="icon icon--arrow-left"></i>
-											Managing Groups
+											Menus
 										</a>
 									
 									
-										<a href="/html" class="btn btn--dark btn--rounded btn--w-icon">
+										<a href="/menus" class="btn btn--dark btn--rounded btn--w-icon">
 											<i class="icon icon--arrow-right"></i>
-											HTML Basics
+											Managing Groups
 										</a>
 									
 								
@@ -101,24 +101,56 @@
 				<div class="row">
 					<div class="col-md-7">
 						<div class="content">
-							<h2 id="layout-section">Adding a new layout</h2>
-<p>Layouts make it easier to keep a level of consistency throughout the site. These can be used to save time when creating several similar pages.</p>
+							<h2 id="sync-section">Adding a new Microsite</h2>
+<p>If you would like to synchronise your current content to a new microsite then you will need add a new site:</p>
 <ul>
-    <li>Hover over the <strong>Content</strong> tab at the top.</li>
-    <li>Select <strong>Layouts</strong> from the drop down menu - You will be able to select an existing group or add a new one.</li> 
-    <li>On the right-hand-side of the page there is a button called <strong>Add a layout</strong>, click this.</li>
+    <li>Hover over the <strong>Settings</strong> tab at the top.</li>
+    <li>Select <strong>Sites</strong> from the drop down menu.</li>
+    <li>On the right-hand-side of the page there is a button called <strong>Add a new site</strong>, click this.</li>
 </ul>
-<p><img src="../images/new-layout.png" style="width:200px" alt="Add a new group button" /></p>
-
-<p>You will then need to enter details to get add the group. The fields are:</p>
+<p><img src="../images/new-site.png" style="width:200px;" alt="Add a new site button" /></p>
+<p>You will then need to enter details of the new site. The fields are:</p>
 <div class="callout callout--info">
-    <p><strong>Name</strong> This is the name of the group.</p>
-    <p><strong>Slug</strong>This will generate automatically from the name and will appear in the URL to show you the path of the page.</p>
-    <p><strong>Parent</strong>You have the option to nest your groups within other groups.</p>
-    <p><strong>Hide from public lists</strong>You can choose whether to make your group public or not.</p>
+    <h5 style="margin-top:1.1rem;">Details tab</h5>
+    <p><strong>Name</strong> This is the admin name of the microsite.</p>
+    <p><strong>Module</strong> This is the name of the folder in <i>sites/</i>. This is the same as the name without any spaces.</p>
+    <p><strong>Title</strong> This is the Public title used in site meta.</p>
+    <h5 style="margin-top:1.1rem;">Domains tab</h5>
+    <p><strong>Domain</strong> If you would like the micorsite to point to another domain you can add it here.</p>
 </div>
-<h3 id="group-subsection">Editing a group</h3>
-<p>Choose the group you'd like to edit from the group list, click on either the <strong>title</strong> or <strong>edit</strong> to get started.</p>
+<div class="callout callout--danger">
+    <p><strong>Please note</strong> If you are adding a new domain, please contact <a href="mailto:support@copiadigital.co.uk" target="_blank" rel="noopener">Copia</a> to set up the serverside.</p>
+</div>
+
+<h2 id="sync-section1">Synchronisation</h2>
+<p>Lima includes the ability to create different versions of the site, such as a <strong>draft</strong> verison, dependant on how the site has been set up.</p>
+<p>When signed in as an administrator, you will see this bar at the top of the browser:</p>
+<p><img src="../images/admin-bar.png" style="width:500px;" alt="CMS Admin bar" /></p>
+<p>You can use this bar to switch between versions of the site, i.e. between <strong>Main</strong> and a <strong>Microsite, Live</strong> mode and <strong>Draft</strong> mode, and if applicable, different <strong>language</strong> versions of the site.</p>
+
+<h3 id="sync-subsection">Synchronising to a new site</h3>
+<ul>
+    <li>Hover over the <strong>Synchronisation</strong> tab at the top.</li>
+    <li>Select <strong>Everything</strong> from the drop down menu.</li>
+</ul>
+<p>You will be presented a screen with two options:</p>
+<h5>Merge</h5>
+<div class="callout">
+    <p>A merge will copy across all changes between versions, but leave any new items (pages, menus, etc) in the destination variation.</p>
+</div>
+<h5>Replace</h5>
+<div class="callout">
+    <p>Performing a replace will create an exact copy, removing any changes you might have made on the destination variation.</p>
+</div>
+<p>Once you select either <strong>Merge</strong> or <strong>Replace</strong>, you then can specify what you are synching and where to.</p>
+<p><img src="../images/sync-options.png" alt="Sync options" /></p>
+<div class="callout callout--info">
+    <p><strong>Mode</strong> This determines which draft of the site you will be synchronising from (<i>Live</i> is set by default).</p>
+    <p><strong>Site</strong> This determines which version of the site you will be synchronising to (<i>The main site</i> is set by default).</p>
+    <p><strong>Language</strong> This determines which language version you will synchronise.</p>
+</div>
+<p>Once you have set your preferences, click on the <strong>Synchronise</strong> button.</p>
+<p><img src="../images/sync.png" style="width:150px;" alt="Syncronise button" /></p>
 
 
 						</div><!-- /.content -->
@@ -141,12 +173,12 @@
 								
 									<a href="/menus" class="page-nav__item page-nav__item--prev">
 										<i class="icon icon--arrow-left"></i>
-										Managing Groups
+										Menus
 									</a><!-- /.page-nav__item -->
 								
 								
-									<a href="/html" class="page-nav__item page-nav__item--next">
-										HTML Basics
+									<a href="/menus" class="page-nav__item page-nav__item--next">
+										Managing Groups
 										<i class="icon icon--arrow-right"></i>
 									</a><!-- /.page-nav__item -->
 								
