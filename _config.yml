@@ -8,13 +8,13 @@ doks:
             image:
         nav:
             - item_name: Pages and content
-              item_url: '#'
-            - item_name: Menus and content blocks
-              item_url: '#'
+              item_url: '/pages'
+            - item_name: Menus
+              item_url: '/menus'
             - item_name: Configuration
               item_url: '#'
             - item_name: Languages and synchronisation
-              item_url: '#'
+              item_url: '/synchronisation'
     footer:
         content:
             logo:
