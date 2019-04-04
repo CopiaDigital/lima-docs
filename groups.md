@@ -14,8 +14,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Managing Menus
-        url: '/menus'
+        content: Managing Pages
+        url: '/pages'
     next:
         content: Managing Layouts
         url: '/layouts'
@@ -30,7 +30,7 @@ page_nav:
 </ul>
 <img src="../images/new-group.png" style="width:200px" alt="Add a new group button">
 
-<p>You will then need to enter details to get add the group. The fields are:</p>
+<p>You will then need to enter details to add the group. The fields are:</p>
 <div class="callout callout--info">
     <p><strong>Name</strong> This is the name of the group.</p>
     <p><strong>Slug</strong>This will generate automatically from the name and will appear in the URL to show you the path of the page.</p>

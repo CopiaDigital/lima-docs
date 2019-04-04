@@ -17,8 +17,8 @@ page_nav:
         content: Back to home
         url: '/'
     next:
-        content: Managing Menus
-        url: '/menus'
+        content: Managing Groups
+        url: '/groups'
 ---
 
 <h2 id="page-section1">Adding a new page</h2>

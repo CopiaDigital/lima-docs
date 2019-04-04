@@ -14,11 +14,11 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Menus
+        content: Managing Menus
         url: '/menus'
     next:
-        content: Managing Groups
-        url: '/menus'
+        content: Managing News Articles
+        url: '/news'
 ---
 
 <h2 id="menu-section">HTML Basics</h2>

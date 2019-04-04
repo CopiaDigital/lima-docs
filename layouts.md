@@ -17,8 +17,8 @@ page_nav:
         content: Managing Groups
         url: '/menus'
     next:
-        content: HTML Basics
-        url: '/html'
+        content: Managing Menus
+        url: '/menus'
 ---
 <h2 id="layout-section">Adding a new layout</h2>
 <p>Layouts make it easier to keep a level of consistency throughout the site. These can be used to save time when creating several similar pages.</p>

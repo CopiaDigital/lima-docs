@@ -14,11 +14,11 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Menus
-        url: '/menus'
+        content: File Manager
+        url: '/files'
     next:
-        content: Managing Groups
-        url: '/menus'
+        content: Back to home
+        url: '/'
 ---
 
 <h2 id="sync-section">Adding a new Microsite</h2>
