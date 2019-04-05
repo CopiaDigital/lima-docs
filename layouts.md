@@ -15,7 +15,7 @@ micro_nav: true
 page_nav:
     prev:
         content: Managing Groups
-        url: '/menus'
+        url: '/groups'
     next:
         content: Managing Menus
         url: '/menus'
