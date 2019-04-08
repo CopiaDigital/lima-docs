@@ -46,13 +46,10 @@ page_nav:
 <p>A page, along with other items in the CMS have numerous options, split up into tabs. The most important information is on the first tab but click on the tabs to see other options available to you.</p>
 
 <h3 id="page-subsection">Content</h3>
-<<<<<<< HEAD
 <p><img src="../images/content-tab.png" style="width:450px;" alt="Content tab"></p>
 <p>Once you have created your page, you can start adding content. You will be presented with a screen like this.
-=======
 <p><img src="../images/content-tab.png" style="width:450px;" alt="Edit page tabs"></p>
 <p>Once you have created your page, you can start adding content. You will be presented with a screen like this.</p>
->>>>>>> c83016344928451020367e3fce78a3e60f074a64
 <p><img src="../images/content.png" alt="Content page"></p>
 
 <p>As you can see there is a field where you can add your content with the following icons:</p>
