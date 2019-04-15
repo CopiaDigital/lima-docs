@@ -37,7 +37,7 @@ page_nav:
     <p><strong>Admin reference</strong> A name for the page that only administrators and editors will see (this will be created by default)</p>
     <p><strong>Slug</strong> A unique URL friendly name for the page, that will form the name of the page (this will be created by default)</p>
     <p><strong>Layout</strong> Choose the layout of the page you would like to use (more on layouts later)</p>
-    <p><strong>Group</strong> Pages are organised into groups to make them easier to find, select an existing group or make a new one (more on groups later</p>
+    <p><strong>Group</strong> Pages are organised into groups to make them easier to find, select an existing group or make a new one (more on groups later).</p>
 </div>
 
 

@@ -53,13 +53,13 @@ page_nav:
         <li>Local path</li>
         <li>Custom MVC</li>
         <li>Legal disclaimer logout</li>
-        <li>Legal disclianer</li>
+        <li>Legal disclaimer</li>
         <li>File</li>
     </ul>
     <p><strong>Link target</strong>You can choose how you want your page to open.</p>
 </div>
 <p>As we want to link to our contact page, we choose <strong>Page from CMS.</strong> This allows us to select the pages we have created on the site.</p>
-<p>(Image here)</p>
+<img src="../images/menu-item.png" style="width:400px;" alt="Menu item example">
 <p>Once you've clicked <strong>Contact us</strong> the link is ready to be saved. Click <strong>Save</strong> on the right-hand-side of the page.</p>
 <div class="callout callout--danger">
     <p>Do not forget to hit save once you've finished to keep your changes.</p>
@@ -76,6 +76,6 @@ page_nav:
 </ul>
 <p>Edit the appropriate link in the parent menu, and click the <strong>Submenu</strong> tab. From here you can select the submenu.</p>
 <p>If the CSS allows for it, submenus can have multiple layers. For example if you have a main menu at the top of the page, and under the <strong>About</strong> link, you want two menus to appear, <strong>Information</strong> and<strong>Contact</strong>, for example you must create four menus.</p>
-<p>These menus would be the parent menu that has the original <strong>About</strong> link. The first submen which would feature just two links, <strong>Information</strong> and<strong>Contact</strong>, and then a separate menu for each of those links.</p>
+<p>These menus would be the parent menu that has the original <strong>About</strong> link. The first submen which would feature just two links, <strong>Information</strong> and<strong> Contact</strong>, and then a separate menu for each of those links.</p>
 
 

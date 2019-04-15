@@ -41,5 +41,9 @@ grid_navigation:
       excerpt: How to Synchronise and add Microsites
       cta: Read more
       url: '/synchronisation'
+    - title: Disclaimers
+      excerpt: How to manage Disclaimers
+      cta: Read more
+      url: '/disclaimers'
 
 ---

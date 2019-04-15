@@ -1,0 +1,112 @@
+---
+# Page settings
+layout: default
+keywords:
+comments: false
+
+# Hero section
+title: Disclaimers
+description: Managing disclaimers
+
+# Micro navigation
+micro_nav: true
+
+# Page navigation
+page_nav:
+    prev:
+        content: Synchronisation
+        url: '/synchronisation'
+    next:
+        content: Back to home
+        url: '/'
+---
+
+<h2 id="disclaimer-section">Adding a Disclaimer</h2>
+<p>Before you can add a disclaimer, you will need to set up a <strong>group</strong> and a <strong>role</strong> (if these are already set up you can skip this step).</p>
+
+<h3 id="disclaimer-subsection">Adding a new group</h3>
+<ul>
+    <li>Hover over the <strong>Legal</strong> tab at the top.</li>
+    <li>Select <strong>Disclaimer groups</strong> from the drop down menu</li> 
+</ul>
+<img src="../images/new-group.png" style="width:200px" alt="Add a new group button">
+<p>You will then need to enter details to add the group. The fields are:</p>
+<div class="callout callout--info">
+    <p><strong>Name</strong> This is the name of the group.</p>
+    <p><strong>Slug</strong>This will generate automatically from the name and will appear in the URL to show you the path of the page.</p>
+    <p><strong>Parent</strong>You have the option to nest your groups within other groups.</p>
+    <p><strong>Hide from public lists</strong>You can choose whether to make your group public or not.</p>
+</div>
+<h3 id="disclaimer-subsection1">Adding a new role</h3>
+<ul>
+    <li>Hover over the <strong>Users</strong> tab at the top.</li>
+    <li>Select <strong>Roles</strong> from the drop down menu</li> 
+</ul>
+<img src="../images/new-role.png" style="width:200px" alt="Add a new role button">
+<p>You will then need to enter details to add the group. The fields are:</p>
+<div class="callout callout--info">
+    <p><strong>Name</strong> This is the name of the role.</p>
+    <p><strong>Parent</strong>You have the option to nest your groups within other groups, although this time you will need to select <i>Everyone</i> as the parent to allow your new role to inherit all roles.</p>
+</div>
+<p>Now that you have set up a new role and a new group you can add the disclaimer.</p>
+
+<h3 id="disclaimer-subsection2">New disclaimer</h3>
+<ul>
+    <li>Hover over the <strong>Legal</strong> tab at the top.</li>
+    <li>Select <strong>Disclaimers</strong> from the drop down menu</li> 
+</ul>
+<img src="../images/new-disclaimer.png" alt="Add a new disclaimer button" style="width:200px">
+<p>You will then be presented with the following fields:</p>
+<div class="callout callout--warning">
+    <p><strong>Admin reference</strong> A name for the disclaimer that only administrators and editors will see.</p>
+    <p><strong>Name</strong>This is the name of the disclaimer that anyone can see on your website.</p>
+    <p><strong>Group</strong>Select a group.</p>
+    <p><strong>Type</strong> You can choose between the following:</p>
+    <p><i>Accept/Decline</i></p>
+    <p><i>Login</i></p>
+    <p><i>Multiple Choice</i></p>
+    <p><i>Custom Form</i></p>
+    <p>You will mainly use either Accept/Decline or Login.</p>
+    <p><strong>Role(s) to assign on accept</strong>You need to tick the role that you would like to give people who have accepted.</p>
+    <p><strong>Permanently add roles to logged in user</strong>Leave this un-ticked.</p>
+    <p><strong>Layout</strong>Use the same layout as the page you are adding the disclaimer to.</p>
+    <p><strong>Template</strong>Choose <i>Disclaimer Default View.</i></p>
+    <p><strong>Expiration</strong>Leave this field.</p>
+    <p><strong>Keep Alive</strong>Leave this field.</p>
+    <p><strong>Redirect people with permission to</strong>You would need to select the page that you would like the disclaimer to be on.</p>
+    <p><strong>Redirect people without permission to</strong>You need to select <i>Referer</i>.</p>
+</div>
+<p>Once you have filled in all the information the disclaimer is ready to be saved. Click <strong>Save</strong> on the right-hand-side of the page.</p>
+<h3 id="disclaimer-subsection3">Editing the disclaimer</h3>
+<p>Once you have saved your Disclaimer, you will now be given more options. This is where you will be able to add your content for the Disclaimer.</p>
+<img src="../images/disclaimer-content.png" alt="Disclaimer content tab">
+<p><i>You add content to this the same way as you would a page.</i></p>
+<h3 id="disclaimer-subsection4">Adding the disclaimer to the page</h3>
+<p>Now that it has been set up, you need to set the page to redirect to the disclaimer.</p>
+<ul>
+    <li>Hover over the <strong>Content</strong> tab at the top</li>
+    <li>Select <strong>Pages</strong> from the drop down menu</li> 
+    <li>Select the page</li>
+    <li>Click on the <strong>Permissions</strong> tab</li>
+</ul>
+<img src="../images/permissions-tab.png" style="width:450px;" alt="Permissions tab">
+<div class="callout callout--info">
+    <p>You can see that this tab is set out in two sections:</p>
+    <p><strong>Allow</strong>You can control who you want to view this page.</p>
+    <p>You will see that the page is set to have a default permission of <i>everyone</i>.</p>
+    <p>You can remove this by clicking on the <i>X</i>.</p>
+    <p><strong>Deny</strong>You can control who you do not want to have access to the page.</p>
+    <p>This is blank by default.</p>
+</div>
+<p>To add a new Permission in <strong>Allow</strong> you will need to click on:</p>
+<img src="../images/add-permission.png" style="width:150px" alt="Add a permission button">
+<p>You will then need to click through to your newly created role (<strong>Role > Everyone > New Role</strong>)</p>
+<p>Now you have given the correct permissions to the page you need to set up <strong>Redirect people without permission to</strong>
+<ul>
+    <li>Select <strong>Legal Disclaimer</strong> from the list</li>
+    <li>Select your disclaimer from the drop down list</li>
+</ul>
+<p>This will now redirect people back to the disclaimer page if they choose to not accept.</p>
+<p>Click <strong>Save</strong> on the right-hand-side of the page.</p>
+
+

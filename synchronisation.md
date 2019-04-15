@@ -17,8 +17,8 @@ page_nav:
         content: File Manager
         url: '/files'
     next:
-        content: Back to home
-        url: '/'
+        content: Disclaimers
+        url: '/disclaimers'
 ---
 
 <h2 id="sync-section">Adding a new Microsite</h2>
