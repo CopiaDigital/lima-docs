@@ -14,8 +14,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Back to home
-        url: '/'
+        content: Site Structure
+        url: '/structure'
     next:
         content: Managing Groups
         url: '/groups'

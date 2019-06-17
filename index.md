@@ -9,6 +9,10 @@ description: Lima CMS
 
 # Grid navigation
 grid_navigation:
+    - title: Site Structure
+      excerpt: How to set up the basic site structure
+      cta: Read more
+      url: '/structure'
     - title: Pages
       excerpt: How to create and edit pages
       cta: Read more

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Basic site structure</title>
+
+	<meta name="description" content="How to set up the basic site structure">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+
+	</head>
+	<body class="" data-spy="scroll" data-target=".js-scrollspy">
+		
+	<div class="offcanvas visible-xs">
+		<ul class="offcanvas__nav">
+			
+				<li><a href="/pages">Pages and content</a></li>
+			
+				<li><a href="/menus">Menus</a></li>
+			
+				<li><a href="#">Configuration</a></li>
+			
+				<li><a href="/synchronisation">Languages and synchronisation</a></li>
+			
+		</ul><!-- /.offcanvas__nav -->
+	</div><!-- /.offcanvas -->
+
+
+
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+						<a href="/" class="site-header__logo">Lima CMS</a>
+					
+					
+						<ul class="site-header__nav hidden-xs">
+							
+								<li><a href="/pages">Pages and content</a></li>
+							
+								<li><a href="/menus">Menus</a></li>
+							
+								<li><a href="#">Configuration</a></li>
+							
+								<li><a href="/synchronisation">Languages and synchronisation</a></li>
+							
+						</ul><!-- /.site-header__nav -->
+						<button class="offcanvas-toggle visible-xs">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button><!-- /.offcanvas-toggle -->
+					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header><!-- /.site-header -->
+
+
+		<div class="hero-subheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								
+									<h1 class="hero-subheader__title">Basic site structure</h1>
+								
+								
+									<p class="hero-subheader__desc">How to set up the basic site structure</p>
+								
+								
+									
+										<a href="/" class="btn btn--dark btn--rounded btn--w-icon btn--w-icon-left">
+											<i class="icon icon--arrow-left"></i>
+											Back to home
+										</a>
+									
+									
+										<a href="/pages" class="btn btn--dark btn--rounded btn--w-icon">
+											<i class="icon icon--arrow-right"></i>
+											Managing Pages
+										</a>
+									
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="content">
+							<h2 id="structure-section1">Setting up the Basics</h2>
+<p>The first thing you will need to do is refer to a Sitemap.</p>
+<p>You will then need to follow this order when setting up the basics:</p>
+<ol>
+    <li>Set up Groups</li>
+    <li>Set up Pages</li>
+    <li>Set up Menus</li>
+</ol>
+<p>Please see below for more information on each of the steps.</p>
+
+<h3 id="page-subsection">1. Adding Groups</h3>
+<p>Every page will need a group, so it is important to set these up before you start adding any pages. If you realise you need more groups, these can be added at anytime. By creating the groups first this will allow:
+<ul>
+    <li>URLs to show the correct path to the page</li>
+    <li>Breadcrumbs to work</li>
+    <li>Adding menus</li>
+</ul>
+<p>Without a group, you will not be able to add a menu.</p>
+
+<div class="callout callout--danger">
+    <p><strong>HELP</strong> If you need a refresher on how to set up Groups you can view guidelines <a href="/groups">here</a>.</p>
+</div>
+
+<h3 id="page-subsection1">2. Adding Pages</h3>
+<p>Now you have all your groups set up, you will need to set up the pages.</p>
+<ul>
+    <li>All the pages that are going to be the first one in a group will need a slug of <strong>index</strong>. Otherwise the URL could potentially read i.e. our-team/our-team </li>
+    <li>Make sure that you assign the layout of <strong>default</strong> to every page</li>
+</ul>
+
+<div class="callout callout--danger">
+    <p><strong>HELP</strong> If you need a refresher on how to set up Pages you can view guidelines <a href="/pages">here</a>.</p>
+</div>
+
+<h3 id="page-subsection2">3. Adding Groups</h3>
+<p>No you have added all your pages, you will need to create menus. You will need to set up the following:</p>
+<ul>
+    <li>Main navigation (this will be under the group <strong>Index</strong>)</li>
+    <li>Set up submenus (if any). Remember once you have set up the menu, you will then need to assign it to an item in the main naviation</li>
+    <li>Footer links</li>
+</ul>
+
+<div class="callout callout--danger">
+    <p><strong>HELP</strong> If you need a refresher on how to set up Menus you can view guidelines <a href="/menus">here</a>.</p>
+</div>
+
+
+
+
+
+
+</p>
+
+						</div><!-- /.content -->
+					</div><!-- /.col -->
+					<div class="col-md-4 col-md-offset-1">
+						<div class="sections-list-wrapper">
+							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.section -->
+		
+		<div class="js-footer-area">
+			
+				<nav class="page-nav">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								
+									<a href="/" class="page-nav__item page-nav__item--prev">
+										<i class="icon icon--arrow-left"></i>
+										Back to home
+									</a><!-- /.page-nav__item -->
+								
+								
+									<a href="/pages" class="page-nav__item page-nav__item--next">
+										Managing Pages
+										<i class="icon icon--arrow-right"></i>
+									</a><!-- /.page-nav__item -->
+								
+							</div><!-- /.col -->
+						</div><!-- /.row -->
+					</div><!-- /.container -->
+				</nav><!-- /.page-nav -->
+			
+			
+				<div class="micro-nav">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="/" class="micro-nav__back">
+					<i class="icon icon--arrow-left"></i>
+					Back to homepage
+				</a><!-- /.micro-nav__back -->
+			</div><!-- /.col -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</div><!-- /.micro-nav -->
+
+			
+			
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					
+						<a href="/" class="site-footer__logo">Lima CMS</a>
+					
+					
+						<hr>
+						<p class="site-footer__copyright">Copyright &copy; 2019. - Copia Digital Ltd <br>All rights reserved.</p>
+					
+				</div><!-- /.col -->
+				
+					<div class="col-sm-6 align-right">
+						<ul class="social-list">
+							
+								<li>
+									<a href="#" target="_blank" class="social-list__item social-list__item--facebook">
+										<i class="icon icon--facebook"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="#" target="_blank" class="social-list__item social-list__item--twitter">
+										<i class="icon icon--twitter"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="#" target="_blank" class="social-list__item social-list__item--instagram">
+										<i class="icon icon--instagram"></i>
+									</a>
+								</li>
+							
+								<li>
+									<a href="#" target="_blank" class="social-list__item social-list__item--youtube">
+										<i class="icon icon--youtube"></i>
+									</a>
+								</li>
+							
+						</ul><!-- /.social-list -->
+					</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
+
+
+
+
+		</div><!-- /.js-footer-area -->
+	</body>
+</html>
